@@ -1,0 +1,114 @@
+*, *:before, *:after {
+	/* Chrome 9-, Safari 5-, iOS 4.2-, Android 3-, Blackberry 7- */
+	 -webkit-box-sizing: border-box;
+	/* Firefox (desktop or Android) 28- */
+	 -moz-box-sizing: border-box;
+	/* Firefox 29+, IE 8+, Chrome 10+, Safari 5.1+, Opera 9.5+, iOS 5+, Opera Mini Anything, Blackberry 10+, Android 4+ */
+	 box-sizing: border-box;
+}
+ h1, h2, h3, h4, h5, h6 {
+	 margin: 0 0 4% 0;
+}
+ .sidebar {
+    background-color: #fff;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 2%;
+    width: 40%;
+    height: 100%;
+    margin-top: 10px;
+    float: left;
+    margin-left: 20px;
+    color: #92CF48;
+}
+ .project-input-form input, .project-input-form textarea {
+	 background-color: #EAEDF3;
+	 color: #454545;
+	 padding: 4%;
+	 margin-bottom: 8%;
+	 width: 100%;
+	 border: none;
+	 display: block;
+}
+ .project-input-form .submit {
+	 background-color: #92CF48;
+	 color: #fff;
+	 width: 100%;
+	 padding: 2%;
+	 border-radius: 2px;
+	 border: 0;
+	 text-transform: uppercase;
+}
+ .page {
+	 width: 100%;
+	 max-width: 1500px;
+	 margin: 0 auto;
+}
+ .projects {
+    float: left;
+    margin: 10px;
+}
+ .project {
+    width: 400px;
+    margin-left: 20px;
+    padding: 20px;
+    border-top: 4px solid #92CF48;
+    margin-bottom: 5%;
+    position: relative;
+	background-color: #fff;
+	-webkit-box-shadow: 0 2px 5px 0 rgba(10, 10, 10, .1);
+	-moz-box-shadow: 0 2px 5px 0 rgba(10, 10, 10, .1);
+	box-shadow: 0 2px 5px 0 rgba(10, 10, 10, .1);
+}
+ .project:nth-child(2n+2) {
+	 margin-right: 0;
+}
+ .project:last-child {
+	 margin-bottom: 0;
+}
+ .close {
+	 text-transform: uppercase;
+	 font-weight: bold;
+	 position: absolute;
+	 top: 10%;
+	 right: 5%;
+	 cursor: pointer;
+}
+ .priority-wrap {
+	 display: block;
+	 width: 100%;
+}
+ .priority {
+	 color:#92CF48;
+}
+ .priority-label {
+	 color:#92CF48;
+}
+ .priority-slider input[type=range] {
+	 -webkit-appearance: none;
+	 width: 100%;
+	 border-radius: 8px;
+	 height: 2px;
+	 border: 1px solid #bdc3c7;
+	 background-color: #fff;
+     margin: 0;
+     color: #92CF48;
+}
+ .priority-slider input[type='range']::-webkit-slider-thumb {
+	 -webkit-appearance: none;
+	 background-color: #ecf0f1;
+	 border: 1px solid #bdc3c7;
+	 width: 5px;
+	 height: 5px;
+	 border-radius: 10px;
+     cursor: pointer;
+     color: #92CF48;
+}
+ .hide {
+	 display: none;
+}
+ .show {
+	 display: block;
+}
+ 

@@ -1,0 +1,25 @@
+.wrapper {
+    padding: 120px 20px 150px 50px;
+    width: 35%;
+    /*background-color: black;*/
+    color: purple;
+    height: 100%;
+}
+body{
+    background-image: url('bg.jpg');
+}
+#loginhead{
+    font-size: 50px;
+    font-weight: bolder;
+}
+input[type="submit"]{
+    background-color: purple;
+    border-color: purple;
+}
+.wrapper2{
+        padding: 110px 20px 95px 50px;
+        width: 35%;
+        /*background-color: black;*/
+        color: purple;
+        height: 100%;
+}
